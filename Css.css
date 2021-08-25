@@ -1,0 +1,94 @@
+h1{
+	text-align: center;
+	border-box: box-sizing;
+}
+@media (min-width: 992px){
+	div > p{
+		color: black;
+		margin-top: 30px;
+		margin-left: 10px;
+	}
+	.col-md-4{
+		float: left;
+		border: 3px solid black;
+		height: 135px;
+		width: 30%;
+		margin-left: 20px;
+		background-color: lightgrey;
+	}
+	.Col1 , .Col2, .Col3{
+		float: right;
+		background-color: indianred;
+		width: 25%;
+		height: 25px;
+		padding-left: 30px;
+		border: 1px solid black;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	div > p{
+		color: black;
+		margin-top: 30px;
+		margin-left: 10px;
+	}
+	.col-sm-6{
+		width: 40%;
+		float: left;
+		border: 3px solid black;
+		height: 137px;
+		margin-left: 30px;
+		background-color: lightgrey;
+	}
+	.col-sm-12{
+		width: 83.8%;
+		float: left;
+		border: 3px solid black;
+		height: 137px;
+		margin-left: 30px;
+		background-color: lightgrey;
+		margin-top: 30px;
+	}
+	.Col1 , .Col2, .Col3{
+		float: right;
+		background-color: indianred;
+		width: 25%;
+		height: 25px;
+		padding-left: 30px;
+		border: 1px solid black;
+	}
+}
+
+@media (max-width: 767px){
+	div > p{
+		color: black;
+		margin-top: 30px;
+		margin-left: 10px;
+	}
+	.col-xs-12{
+		border: 3px solid black;
+		height: 100px;
+		margin-left: 30px;
+		background-color: lightgrey;
+		margin-top: 30px;
+	}
+	.Col1 , .Col2, .Col3{
+		float: right;
+		background-color: indianred;
+		width: 23%;
+		height: 25px;
+		padding-left: 20px;
+		border: 1px solid black;
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
